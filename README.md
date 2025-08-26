@@ -1,4 +1,4 @@
-# [tiktok-scraper: Node.js](https://github.com/appit-online/tiktok-scraper)
+# [tiktok-video-scraper: Node.js](https://github.com/appit-online/tiktok-video-scraper)
 
 A lightweight library to **search TikTok videos, fetch user details, and download media**, built for Node.js environments using modern HTTP clients.
 
@@ -27,12 +27,12 @@ A lightweight library to **search TikTok videos, fetch user details, and downloa
 ### 📦 Installation
 
 ```bash
-npm install tiktok-scraper --save
+npm install tiktok-video-scraper --save
 ```
 
 ### Using the library
 ```
-import Tiktok from 'tiktok-scraper;
+import Tiktok from 'tiktok-video-scraper;
 
 const tiktokUrl = 'https://vm.tiktok.com/ZNHChcc/';
 
@@ -87,7 +87,7 @@ try {
 You can fetch only specific fields from the TikTok video by passing a `keys` array while keeping parsing enabled (`parse: true`
 
 ``` javascript
-import Tiktok from 'tiktok-scraper';
+import Tiktok from 'tiktok-video-scraper';
 
 const tiktokUrl = 'https://www.tiktok.com/@shot/video/7539590113288?_r=1&_t=ZN-8z8m3Qj3X5a';
 
@@ -107,7 +107,7 @@ try {
 
 ### Raw TikTok API data without parsing
 ``` javascript
-import Tiktok from 'tiktok-scraper';
+import Tiktok from 'tiktok-video-scraper';
 
 const tiktokUrl = 'https://vm.tiktok.com/ZN2hcc/';
 
@@ -128,4 +128,4 @@ try {
 
 Apache Version 2.0
 
-See [LICENSE](https://github.com/appit-online/tiktok-scraper/blob/master/LICENSE)
+See [LICENSE](https://github.com/appit-online/tiktok-video-scraper/blob/master/LICENSE)

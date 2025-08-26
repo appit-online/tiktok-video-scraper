@@ -1,5 +1,5 @@
 {
-  "name": "tiktok-scraper",
+  "name": "tiktok-video-scraper",
   "version": "1.0.0",
   "type": "module",
   "description": "Get TikTok posts and reels without API or Cookie key",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/appit-online/tiktok-scraper.git"
+    "url": "git+https://github.com/appit-online/tiktok-video-scraper.git"
   },
   "keywords": [
     "tiktok",
@@ -43,9 +43,9 @@
     "lib/**/*"
   ],
   "bugs": {
-    "url": "https://github.com/appit-online/tiktok-scraper/issues"
+    "url": "https://github.com/appit-online/tiktok-video-scraper/issues"
   },
-  "homepage": "https://github.com/appit-online/tiktok-scraper#readme",
+  "homepage": "https://github.com/appit-online/tiktok-video-scraper#readme",
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.7",
