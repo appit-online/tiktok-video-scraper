@@ -98,7 +98,7 @@ try {
   })
   console.log(result);
 } catch (err) {
-  if (e.status === 429){
+  if (err.status === 429){
     // handle rate limit issue
   }
   console.error('Error fetching TikTok video:', err);
@@ -117,7 +117,7 @@ try {
   })
  console.log(result);
 } catch (err) {
-  if (e.status === 429){
+  if (err.status === 429){
     // handle rate limit issue
   }
   console.error('Error fetching TikTok video:', err);
