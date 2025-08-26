@@ -1,0 +1,63 @@
+{
+  "name": "tiktok-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Get TikTok posts and reels without API or Cookie key",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appit-online/tiktok-scraper.git"
+  },
+  "keywords": [
+    "tiktok",
+    "tik",
+    "tiktok search",
+    "tiktok video search",
+    "tiktok video urls",
+    "angular tiktok search",
+    "tiktok api",
+    "tiktok crawler",
+    "tiktok info",
+    "tiktok information",
+    "tiktok scraper"
+  ],
+  "funding": {
+    "url": "https://paypal.me/dave7117",
+    "type": "paypal"
+  },
+  "author": "David Koller",
+  "license": "ISC",
+  "files": [
+    "lib/**/*"
+  ],
+  "bugs": {
+    "url": "https://github.com/appit-online/tiktok-scraper/issues"
+  },
+  "homepage": "https://github.com/appit-online/tiktok-scraper#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.7",
+    "jest": "^30.0.3",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "~5.5.4"
+  },
+  "dependencies": {
+    "got": "^14.4.7",
+    "rxjs": "^7.8.1"
+  }
+}
